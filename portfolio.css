@@ -6,6 +6,7 @@ body{
     color: #AEAEAE;
     text-align: center;
     font-size: 3rem;
+    opacity: 0%;
 }
 .typo_hover:hover{   
     color: #d82a2a;
@@ -55,17 +56,21 @@ body{
   }
 
   .typo_titres {
-    animation-duration: 2.5s;
+    animation-delay: 1s;
+    animation-duration: 2s;
     animation-name: slidein;
+    animation-fill-mode: both;
   }
   
   @keyframes slidein {
     from {
+        opacity: 0%;
       margin-left: 100%;
       width: 300%;
     }
   
     to {
+        opacity: 100%;
       margin-left: 0%;
       width: 100%;
     }
