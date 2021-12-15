@@ -1,0 +1,13 @@
+body{
+    background-color:#212121;
+}
+.typo_titres{
+    font-family: Impact;
+    color: #AEAEAE;
+    text-align: center;
+    font-size: 3rem;
+}
+#image_principale{
+    width: 30%;
+    position: relative;
+}
