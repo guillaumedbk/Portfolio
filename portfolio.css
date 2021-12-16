@@ -32,6 +32,10 @@ body{
 p{
   color:#AEAEAE;
 }
+.verticale{
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
 .texte_p{
   width: 30%;
   text-align: center;
