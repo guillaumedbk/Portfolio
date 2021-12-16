@@ -1,5 +1,15 @@
+html, body { height : 100%; }
 body{
     background-color:#212121;
+}
+.container{
+    height:100%;
+}
+.position{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 .typo_titres{
     font-family: Impact;
@@ -17,12 +27,14 @@ body{
     color: #AEAEAE;
     text-align: center;
     font-size: 1rem;
-    padding-top: 1.5rem;
-    
+    padding-top: 1.5rem;  
 }
-#image_principale{
-    width: 30%;
-    position: relative;
+p{
+  color:#AEAEAE;
+}
+.texte_p{
+  width: 30%;
+  text-align: center;
 }
 .bounce{
     -webkit-animation-duration: 1s;
@@ -79,7 +91,7 @@ body{
 
 .animate {
     font-size: 50px;
-    margin: 100px 0 0;
+   
     border-bottom: 2px solid #ccc;
   }
   
@@ -152,8 +164,6 @@ body{
     animation-delay: .95s;
   }
   
-  
-  
   @keyframes revolveDrop {
     30% {
       transform: translate(0, -50px) rotate(180deg) scale(1);
@@ -168,5 +178,3 @@ body{
       opacity: 1;
     }
   }
-  
-  
