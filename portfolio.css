@@ -29,6 +29,25 @@ body{
     font-size: 1rem;
     padding-top: 1.5rem;  
 }
+.typo_cards{
+  font-family: Impact;
+  color: #d82a2a;
+  font-size: 1rem;
+}
+.image_card{
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+.card-img-top{
+
+}
+.margin-top-8{
+  margin-top: 8%;
+}
+.margin-top-12{
+  margin-top: 12%;
+}
 p{
   color:#AEAEAE;
 }
@@ -182,3 +201,14 @@ p{
       opacity: 1;
     }
   }
+/* Noir et blanc */
+.grayscale {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.grayscale:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
